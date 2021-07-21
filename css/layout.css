@@ -2,3 +2,25 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+}
+
+.main-menu__left,
+.main-menu__right {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    padding-left: 99px;
+}
+
+.nav__item {
+    padding-right: 30px;
+}
