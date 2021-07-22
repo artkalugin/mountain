@@ -4,9 +4,3 @@
   background-position: center;
   background-size: cover;
 }
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-}
