@@ -2,3 +2,8 @@
 @import "typography.css";
 @import "header.css";
 @import "layout.css";
+@import "about.css";
+
+:root {
+    --layout-width: 1170px;
+}

@@ -1,6 +1,34 @@
-.header {
+.hero {
   background-image: url("../img/everest.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.site-header-icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(252, 252, 252, 0.4);
+  margin-right: 30px;
+}
+
+.site-header-icons__item:last-child {
+  margin-right: 0;
+}
+
+.hero__title {
+  padding-bottom: 50px;
+}
+
+.hero__button {
+  width: 170px;
+  height: 45px;
+  color: #FCFCFC;
+  border: 2px solid #FCFCFC;
+  background: transparent;
+  cursor: pointer;
 }
