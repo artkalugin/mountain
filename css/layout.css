@@ -53,8 +53,10 @@
     margin: 0 auto;
 }
 
-.about__text {
-    line-height: 27px;
-    max-width: 350px;
-    margin-block-end: 15px;
+.section {
+    padding: 70px 0;
+}
+
+.section-about {
+    padding-top: 140px;
 }

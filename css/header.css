@@ -1,10 +1,3 @@
-.hero {
-  background-image: url("../img/everest.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .site-header-icons__item {
   display: flex;
   justify-content: center;
@@ -18,6 +11,13 @@
 
 .site-header-icons__item:last-child {
   margin-right: 0;
+}
+
+.hero {
+  background-image: url("../img/everest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__title {
